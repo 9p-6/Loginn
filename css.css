@@ -1,0 +1,75 @@
+
+
+#al5alefya{
+            background-color: black;
+            color: white;
+            height: 600px;
+            width: 35%;
+            border-radius: 5%;
+            margin: auto;
+            visibility: 50%;  
+            margin-top: 120px; 
+            
+        }
+        #bgcolor{
+            margin: 10px;
+            border-radius: 10px;
+            height: 3vw;
+            width: auto;
+            font-size: 1vw;
+            display: block;
+            background-color: rgb(77, 74, 74);
+        }
+        #page1{
+            background-color: gray;
+            background-image: url(img/للا.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            
+        }
+        input[type="text"],
+        input[type="password"]{
+            background-color: rgb(77, 74, 74);
+            margin-left: 9.5vw;
+            margin-top: 200p;
+            border: 5px;
+            width: 16vw;
+            border-radius: 15vw;
+            text-align: center;
+            font-size: 15px;
+            padding: 1vw;
+            
+
+        }
+
+        #submitbtn{
+            margin-left: 16vw;
+            border-radius: 10px;
+            height: 4vw;
+            transform: 2s;
+            width: 5vw;
+            background-color: rgb(77, 74, 74);
+            color: white;
+            border: 3px;
+            cursor: pointer;
+            font-size: 1vw;
+            
+        }
+
+        #submitbtn:hover{
+            color: blue;
+        }
+        #submitbtn:active{
+            color: darkblue;
+        }
+
+        #hh{
+            text-align: center;
+            color: gray;
+            margin-left: 2vw;
+        }
+        #msg{
+            margin-left:2vw;
+        }
