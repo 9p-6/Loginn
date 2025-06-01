@@ -26,12 +26,5 @@ function login() {
         'color:red;'
         font-size: 6vw;
         >Check UserName Or Password</span>`
-    }
-  
-    
-}
-
-  function logout() {
-    sessionStorage.removeItem('authToken');
-    window.location.href = "index.html";
+    }  
 }
