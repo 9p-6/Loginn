@@ -18,11 +18,9 @@ function login() {
 
     if (data.hasOwnProperty(inpuser) && inppass === data[inpuser].password) {
         window.msg.innerHTML=`<span style='color:green;'> Welcome </span>` + inpuserRaw+"!"
-    
-        const authToken = Math.random().toString(36).substring(2);
-        sessionStorage.setItem('authToken', authToken);
-        window.location.href = "hhh.html";
-
+        setTimeout(() => {
+        window.location.href = "hhh.html"; 
+        }, 3000);
     } else {
         window.msg.innerHTML=`<span style=
         'color:red;'
