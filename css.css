@@ -1,0 +1,113 @@
+/* التنسيقات العامة */
+body#page1 {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#al5alefya {
+    background-color: black;
+    color: white;
+    width: 90%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+#bgcolor {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#hh {
+    text-align: center;
+    color: gray;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+}
+
+#inptext,
+#inppass {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#msg {
+    text-align: center;
+    margin: 15px 0;
+    min-height: 20px;
+}
+
+#submitbtn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(77, 74, 74);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submitbtn:hover {
+    background-color: rgb(95, 95, 98);
+}
+#submitbtn:active {
+    background-color: rgb(13, 13, 13);
+}
+
+/* التعديلات للجوال */
+@media only screen and (max-width: 600px) {
+    #al5alefya {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    #hh {
+        font-size: 20px;
+    }
+    
+    #bgcolor,
+    #inptext,
+    #inppass,
+    #submitbtn {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* للشاشات الصغيرة جدًا */
+@media only screen and (max-width: 400px) {
+    #al5alefya {
+        padding: 15px;
+    }
+    
+    #hh {
+        font-size: 18px;
+    }
+}
